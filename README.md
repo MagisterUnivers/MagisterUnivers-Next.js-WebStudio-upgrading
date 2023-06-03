@@ -56,15 +56,20 @@ Clone the repository:
 - npm run dev
 - Open your browser and visit http://localhost:3000 to see the application.
 <br/>
+<br/>
 **Available Scripts**
 <br/>
 <br/>
 In the project directory, you can run the following scripts:
 <br/>
 - npm run dev: Starts the development server on http://localhost:3000.
+<br/>
 - npm run build: Builds the Next.js application for production.
+<br/>
 - npm run start: Starts the Next.js application in production mode.
+<br/>
 - npm run lint: Runs the linter to check for code quality issues.
+<br/>
 - npm run format: Formats the code using Prettier.
 - <br/>
 **Contributing**
