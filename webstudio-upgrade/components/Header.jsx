@@ -30,9 +30,11 @@ const Header = () => {
 		<header className="header">
 			<div className="container header__box">
 				<nav className="site-nav">
-					<a className="logo logo__size" href="/">
-						Web<span className="logo-primary">Studio</span>
-					</a>
+					<Link legacyBehavior href="/">
+						<a className="logo logo__size">
+							Web<span className="logo-primary">Studio</span>
+						</a>
+					</Link>
 					<button
 						className="header__btn-menu js-open-menu open-data-modal"
 						type="button"
