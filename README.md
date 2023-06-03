@@ -37,7 +37,7 @@ To get started with this project, follow these steps:
 <li>Clone the repository</li>
 <li>bash</li>
 <li>Copy code</li>
-<li>git clone https://github.com/your-username/MagisterUnivers-Next.js-WebStudio-upgrading.git<li>
+<li>git clone https://github.com/your-username/MagisterUnivers-Next.js-WebStudio-upgrading.git</li>
 </ul>
 <br/>
 <br/>
