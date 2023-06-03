@@ -7,6 +7,7 @@ Project Description
 This project aims to demonstrate the basic knowledge of Next.js, a popular React framework for building server-side rendered and static websites. The focus of this test is to showcase understanding of Next.js fundamentals, including routing, data fetching, and component composition.
 <br/>
 Project Structure
+<br/>
 The project structure is organized as follows:
 <br/>
 - components/ # Contains reusable components used throughout the application
