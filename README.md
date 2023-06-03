@@ -15,14 +15,17 @@ This project aims to demonstrate the basic knowledge of Next.js, a popular React
 <br/>
 The project structure is organized as follows:
 <br/>
-- components/ # Contains reusable components used throughout the application
-- pages/ # Contains the Next.js pages
-- public/ # Contains static assets such as images and CSS files
-- styles/ # Contains global styles and CSS modules
-- .next/ # Next.js build output directory (automatically generated)
-- next.config.js # Next.js configuration file
-- package.json # Project dependencies and scripts
-- README.md # Project documentation (you are here) 
+<ul>
+<li>components/ # Contains reusable components used throughout the application</li>
+<li>pages/ # Contains the Next.js pages</li>
+<li>public/ # Contains static assets such as images and CSS files</li>
+<li>styles/ # Contains global styles and CSS modules</li>
+<li>.next/ # Next.js build output directory (automatically generated)</li>
+<li>next.config.js # Next.js configuration file</li>
+<li>package.json # Project dependencies and scripts</li>
+<li>README.md # Project documentation (you are here)</li> 
+</ul>
+
 <br/>
 <h2>Getting Started</h2>
 <br/>
