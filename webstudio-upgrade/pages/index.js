@@ -5,7 +5,7 @@ export default function Home() {
 	return (
 		<>
 			<section className="hero section">
-				{/* <img src="/Hero photo 1.jpg" alt="" /> */}
+				{/* <Image src="/Hero photo 1.jpg" alt="" /> */}
 				<div className="container hero__box">
 					<h1 className="hero-box__title">
 						Ефективні рішення для вашого бізнесу
@@ -27,7 +27,7 @@ export default function Home() {
 						<li className="features__list-item">
 							<div className="benefits__icon">
 								<svg className="benefits__icon-svg" width="70" height="70">
-									<use href="/icons.svg#icon-antenna-2"></use>
+									<use xlinkHref="/icons.svg#icon-antenna-2"></use>
 								</svg>
 							</div>
 							<h3 className="feature__list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -39,7 +39,7 @@ export default function Home() {
 						<li className="features__list-item">
 							<div className="benefits__icon">
 								<svg className="benefits__icon-svg" width="70" height="70">
-									<use href="/icons.svg#icon-clock-2"></use>
+									<use xlinkHref="/icons.svg#icon-clock-2"></use>
 								</svg>
 							</div>
 							<h3 className="feature__list-title">ПУНКТУАЛЬНІСТЬ</h3>
@@ -51,7 +51,7 @@ export default function Home() {
 						<li className="features__list-item">
 							<div className="benefits__icon">
 								<svg className="benefits__icon-svg" width="70" height="70">
-									<use href="/icons.svg#icon-diagram-2"></use>
+									<use xlinkHref="/icons.svg#icon-diagram-2"></use>
 								</svg>
 							</div>
 							<h3 className="feature__list-title">ПЛАНУВАННЯ</h3>
@@ -62,7 +62,7 @@ export default function Home() {
 						<li className="features__list-item">
 							<div className="benefits__icon">
 								<svg className="benefits__icon-svg" width="70" height="70">
-									<use href="/icons.svg#icon-astronaut-2"></use>
+									<use xlinkHref="/icons.svg#icon-astronaut-2"></use>
 								</svg>
 							</div>
 							<h3 className="feature__list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
@@ -80,44 +80,29 @@ export default function Home() {
 					<h2 className="subject">Чим ми займаємося</h2>
 					<ul className="desc-box__list">
 						<li className="desc-box__list-item">
-							<img
-								srcSet="
-								/desktop-add1.jpg 1x,
-								/desktop-add2.jpg 2x
-								"
+							<Image
 								src="/desktop-add1.jpg"
 								alt="programming"
-								width="370"
-								height="294"
-								loading="lazy"
+								width={370}
+								height={294}
 							/>
 							<p className="desc-box__subtext">Десктопні додатки</p>
 						</li>
 						<li className="desc-box__list-item">
-							<img
-								srcSet="
-									/mobile-app1.jpg 1x,
-									/mobile-app2.jpg 2x
-								"
+							<Image
 								src="/mobile-app1.jpg"
 								alt="frontend"
-								width="370"
-								height="294"
-								loading="lazy"
+								width={370}
+								height={294}
 							/>
 							<p className="desc-box__subtext">Мобільні додатки</p>
 						</li>
 						<li className="desc-box__list-item">
-							<img
-								srcSet="
-									/desicion1.jpg 1x,
-									/desicion2.jpg 2x
-								"
-								src="/desicion1.jpg 1x"
+							<Image
+								src="/desicion1.jpg"
 								alt="design"
-								width="370"
-								height="294"
-								loading="lazy"
+								width={370}
+								height={294}
 							/>
 							<p className="desc-box__subtext">Дизайнерські рішення</p>
 						</li>
@@ -130,7 +115,7 @@ export default function Home() {
 					<h2 className="subject">Наша команда</h2>
 					<ul className="author__list">
 						<li className="author__list-item">
-							<img
+							<Image
 								className="userpic"
 								srcSet="
 								/img-1_270.jpg 270w,
@@ -145,7 +130,6 @@ export default function Home() {
 								alt="Member photo 1"
 								width="450"
 								height="460"
-								loading="lazy"
 							/>
 							<div className="author__list-content">
 								<h3 className="author__list-title">Ігор Дем'яненко</h3>
@@ -163,7 +147,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-instagram"></use>
+												<use xlinkHref="/icons.svg#icon-instagram" />
 											</svg>
 										</a>
 									</li>
@@ -179,7 +163,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-twitter"></use>
+												<use xlinkHref="/icons.svg#icon-twitter" />
 											</svg>
 										</a>
 									</li>
@@ -195,7 +179,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-facebook"></use>
+												<use xlinkHref="/icons.svg#icon-facebook" />
 											</svg>
 										</a>
 									</li>
@@ -211,7 +195,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-linkedin"></use>
+												<use xlinkHref="/icons.svg#icon-linkedin" />
 											</svg>
 										</a>
 									</li>
@@ -219,7 +203,7 @@ export default function Home() {
 							</div>
 						</li>
 						<li className="author__list-item">
-							<img
+							<Image
 								srcSet="
 									/img-2_270.jpg 270w,
 									/img-2_354.jpg 354w,
@@ -231,8 +215,9 @@ export default function Home() {
 								sizes="(min-width: 1199.98px) 270px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 								className="userpic"
 								src="/img-2_450.jpg"
+								width="450"
+								height="460"
 								alt="Member photo 2"
-								loading="lazy"
 							/>
 							<div className="author__list-content">
 								<h3 className="author__list-title">Ольга Рєпіна</h3>
@@ -250,7 +235,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-instagram"></use>
+												<use xlinkHref="/icons.svg#icon-instagram" />
 											</svg>
 										</a>
 									</li>
@@ -266,7 +251,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-twitter"></use>
+												<use xlinkHref="/icons.svg#icon-twitter" />
 											</svg>
 										</a>
 									</li>
@@ -282,7 +267,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-facebook"></use>
+												<use xlinkHref="/icons.svg#icon-facebook" />
 											</svg>
 										</a>
 									</li>
@@ -298,7 +283,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-linkedin"></use>
+												<use xlinkHref="/icons.svg#icon-linkedin" />
 											</svg>
 										</a>
 									</li>
@@ -306,7 +291,7 @@ export default function Home() {
 							</div>
 						</li>
 						<li className="author__list-item">
-							<img
+							<Image
 								srcSet="
 									/img-3_270.jpg 270w,
 									/img-3_354.jpg 354w,
@@ -319,7 +304,8 @@ export default function Home() {
 								className="userpic"
 								src="/img-3_450.jpg"
 								alt="Member photo 3"
-								loading="lazy"
+								width="450"
+								height="460"
 							/>
 							<div className="author__list-content">
 								<h3 className="author__list-title">Микола Тарасов</h3>
@@ -337,7 +323,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-instagram"></use>
+												<use xlinkHref="/icons.svg#icon-instagram" />
 											</svg>
 										</a>
 									</li>
@@ -353,7 +339,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-twitter"></use>
+												<use xlinkHref="/icons.svg#icon-twitter" />
 											</svg>
 										</a>
 									</li>
@@ -369,7 +355,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-facebook"></use>
+												<use xlinkHref="/icons.svg#icon-facebook" />
 											</svg>
 										</a>
 									</li>
@@ -385,7 +371,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-linkedin"></use>
+												<use xlinkHref="/icons.svg#icon-linkedin" />
 											</svg>
 										</a>
 									</li>
@@ -393,7 +379,7 @@ export default function Home() {
 							</div>
 						</li>
 						<li className="author__list-item">
-							<img
+							<Image
 								className="userpic"
 								srcSet="
 									/img-4_270.jpg 270w,
@@ -406,7 +392,8 @@ export default function Home() {
 								sizes="(min-width: 1199.98px) 270px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 								src="/img-4_450.jpg"
 								alt="Member photo 4"
-								loading="lazy"
+								width="450"
+								height="460"
 							/>
 							<div className="author__list-content">
 								<h3 className="author__list-title">Михайло Єрмаков</h3>
@@ -424,7 +411,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-instagram"></use>
+												<use xlinkHref="/icons.svg#icon-instagram" />
 											</svg>
 										</a>
 									</li>
@@ -440,7 +427,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-twitter"></use>
+												<use xlinkHref="/icons.svg#icon-twitter" />
 											</svg>
 										</a>
 									</li>
@@ -456,7 +443,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-facebook"></use>
+												<use xlinkHref="/icons.svg#icon-facebook" />
 											</svg>
 										</a>
 									</li>
@@ -472,7 +459,7 @@ export default function Home() {
 												width="20"
 												height="20"
 											>
-												<use href="/icons.svg#icon-linkedin"></use>
+												<use xlinkHref="/icons.svg#icon-linkedin" />
 											</svg>
 										</a>
 									</li>
@@ -495,7 +482,7 @@ export default function Home() {
 								rel="noreferrer noopener"
 							>
 								<svg className="clients__item-icon" width="106" height="60">
-									<use href="/icons.svg#icon-Logo"></use>
+									<use xlinkHref="/icons.svg#icon-Logo" />
 								</svg>
 							</a>
 						</li>
@@ -507,7 +494,7 @@ export default function Home() {
 								rel="noreferrer noopener"
 							>
 								<svg className="clients__item-icon" width="106" height="60">
-									<use href="/icons.svg#icon-Logo-2"></use>
+									<use xlinkHref="/icons.svg#icon-Logo-2" />
 								</svg>
 							</a>
 						</li>
@@ -519,7 +506,7 @@ export default function Home() {
 								rel="noreferrer noopener"
 							>
 								<svg className="clients__item-icon" width="106" height="60">
-									<use href="/icons.svg#icon-Logo-3"></use>
+									<use xlinkHref="/icons.svg#icon-Logo-3" />
 								</svg>
 							</a>
 						</li>
@@ -531,7 +518,7 @@ export default function Home() {
 								rel="noreferrer noopener"
 							>
 								<svg className="clients__item-icon" width="106" height="60">
-									<use href="/icons.svg#icon-Logo-4"></use>
+									<use xlinkHref="/icons.svg#icon-Logo-4" />
 								</svg>
 							</a>
 						</li>
@@ -543,7 +530,7 @@ export default function Home() {
 								rel="noreferrer noopener"
 							>
 								<svg className="clients__item-icon" width="106" height="60">
-									<use href="/icons.svg#icon-Logo-5"></use>
+									<use xlinkHref="/icons.svg#icon-Logo-5" />
 								</svg>
 							</a>
 						</li>
@@ -555,7 +542,7 @@ export default function Home() {
 								rel="noreferrer noopener"
 							>
 								<svg className="clients__item-icon" width="106" height="60">
-									<use href="/icons.svg#icon-Logo-6"></use>
+									<use xlinkHref="/icons.svg#icon-Logo-6" />
 								</svg>
 							</a>
 						</li>

@@ -47,7 +47,7 @@ const Footer = () => {
 								rel="noreferrer noopener"
 							>
 								<svg className="footer__socials-icon" width="20" height="20">
-									<use href="/icons.svg#icon-instagram"></use>
+									<use xlinkHref="/icons.svg#icon-instagram"></use>
 								</svg>
 							</a>
 						</li>
@@ -59,7 +59,7 @@ const Footer = () => {
 								rel="noreferrer noopener"
 							>
 								<svg className="footer__socials-icon" width="20" height="20">
-									<use href="/icons.svg#icon-twitter"></use>
+									<use xlinkHref="/icons.svg#icon-twitter"></use>
 								</svg>
 							</a>
 						</li>
@@ -71,7 +71,7 @@ const Footer = () => {
 								rel="noreferrer noopener"
 							>
 								<svg className="footer__socials-icon" width="20" height="20">
-									<use href="/icons.svg#icon-facebook"></use>
+									<use xlinkHref="/icons.svg#icon-facebook"></use>
 								</svg>
 							</a>
 						</li>
@@ -83,7 +83,7 @@ const Footer = () => {
 								rel="noreferrer noopener"
 							>
 								<svg className="footer__socials-icon" width="20" height="20">
-									<use href="/icons.svg#icon-linkedin"></use>
+									<use xlinkHref="/icons.svg#icon-linkedin"></use>
 								</svg>
 							</a>
 						</li>
@@ -102,7 +102,7 @@ const Footer = () => {
 						<button className="subscribe-button" type="submit">
 							Підписатися
 							<svg className="send-button-icon" width="24" height="24">
-								<use href="/icons.svg#icon-icon-send"></use>
+								<use xlinkHref="/icons.svg#icon-icon-send"></use>
 							</svg>
 						</button>
 					</form>
@@ -113,7 +113,7 @@ const Footer = () => {
 				<div className="modal">
 					<button data-modal-close className="modal__btn">
 						<svg className="modal__icon" width="18" height="18">
-							<use href="/icons.svg#icon-close-black-18dp"></use>
+							<use xlinkHref="/icons.svg#icon-close-black-18dp"></use>
 						</svg>
 					</button>
 					<strong className="modal-title">
@@ -129,7 +129,7 @@ const Footer = () => {
 								required
 							/>
 							<svg className="modal-icon" width="18" height="18">
-								<use href="/icons.svg#icon-person-black-18dp-1"></use>
+								<use xlinkHref="/icons.svg#icon-person-black-18dp-1"></use>
 							</svg>
 						</label>
 
@@ -142,7 +142,7 @@ const Footer = () => {
 								required
 							/>
 							<svg className="modal-icon" width="18" height="18">
-								<use href="/icons.svg#icon-phone-black-18dp-1"></use>
+								<use xlinkHref="/icons.svg#icon-phone-black-18dp-1"></use>
 							</svg>
 						</label>
 
@@ -155,7 +155,7 @@ const Footer = () => {
 								required
 							/>
 							<svg className="modal-icon" width="18" height="18">
-								<use href="/icons.svg#icon-email-black-18dp-1"></use>
+								<use xlinkHref="/icons.svg#icon-email-black-18dp-1"></use>
 							</svg>
 						</label>
 
@@ -172,7 +172,7 @@ const Footer = () => {
 							<input className="modal-checkbox" type="checkbox" required />
 							<span className="checkbox-custom">
 								<svg className="checkbox-icon" width="18" height="18">
-									<use href="/icons.svg#icon-VectorCheck-3"></use>
+									<use xlinkHref="/icons.svg#icon-VectorCheck-3"></use>
 								</svg>
 							</span>
 
@@ -200,7 +200,7 @@ const Footer = () => {
 					aria-label="Кнопка для закриття меню"
 				>
 					<svg className="menu-toggle__icon" width="40" height="40">
-						<use href="/icons.svg#icon-close_40px"></use>
+						<use xlinkHref="/icons.svg#icon-close_40px"></use>
 					</svg>
 				</button>
 

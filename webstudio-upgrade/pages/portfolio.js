@@ -1,4 +1,4 @@
-import React from 'react';
+import Image from 'next/image';
 
 const portfolio = () => {
 	return (
@@ -37,7 +37,7 @@ const portfolio = () => {
 						<li className="gallery-list__item">
 							<a className="gallery-list__link" href="./portfolio.html">
 								<div className="gallery-list__hiddentext">
-									<img
+									<Image
 										className="gallery-list__item-img"
 										srcSet="
 											/portfoliogallery/img-1_354.jpg 354w,
@@ -50,7 +50,8 @@ const portfolio = () => {
 										sizes="(min-width: 1199.98px) 370px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 										src="/portfoliogallery/img-1_450.jpg"
 										alt="technocrack"
-										loading="lazy"
+										width="900"
+										height="100"
 									/>
 									<div className="gallery-list__hiddentext-second">
 										<p className="gallery-list__hiddensubtext">
@@ -71,7 +72,7 @@ const portfolio = () => {
 						<li className="gallery-list__item">
 							<a className="gallery-list__link" href="./portfolio.html">
 								<div className="gallery-list__hiddentext">
-									<img
+									<Image
 										className="gallery-list__item-img"
 										srcSet="
 											/portfoliogallery/img-2_354.jpg 354w,
@@ -84,7 +85,8 @@ const portfolio = () => {
 										sizes="(min-width: 1199.98px) 370px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 										src="/portfoliogallery/img-2_450.jpg"
 										alt="basketball"
-										loading="lazy"
+										width="900"
+										height="100"
 									/>
 									<div className="gallery-list__hiddentext-second">
 										<p className="gallery-list__hiddensubtext">
@@ -106,7 +108,7 @@ const portfolio = () => {
 						<li className="gallery-list__item">
 							<a className="gallery-list__link" href="./portfolio.html">
 								<div className="gallery-list__hiddentext">
-									<img
+									<Image
 										className="gallery-list__item-img"
 										srcSet="
 											/portfoliogallery/img-1_354.jpg 354w,
@@ -119,7 +121,8 @@ const portfolio = () => {
 										sizes="(min-width: 1199.98px) 370px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 										src="/portfoliogallery/img-3_450.jpg"
 										alt="seafood"
-										loading="lazy"
+										width="900"
+										height="100"
 									/>
 									<div className="gallery-list__hiddentext-second">
 										<p className="gallery-list__hiddensubtext">
@@ -139,7 +142,7 @@ const portfolio = () => {
 						<li className="gallery-list__item">
 							<a className="gallery-list__link" href="./portfolio.html">
 								<div className="gallery-list__hiddentext">
-									<img
+									<Image
 										className="gallery-list__item-img"
 										srcSet="
 											/portfoliogallery/img-4_354.jpg 354w,
@@ -152,7 +155,8 @@ const portfolio = () => {
 										sizes="(min-width: 1199.98px) 370px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 										src="/portfoliogallery/img-4_450.jpg"
 										alt="primeproject"
-										loading="lazy"
+										width="900"
+										height="100"
 									/>
 									<div className="gallery-list__hiddentext-second">
 										<p className="gallery-list__hiddensubtext">
@@ -172,7 +176,7 @@ const portfolio = () => {
 						<li className="gallery-list__item">
 							<a className="gallery-list__link" href="./portfolio.html">
 								<div className="gallery-list__hiddentext">
-									<img
+									<Image
 										className="gallery-list__item-img"
 										srcSet="
 											/portfoliogallery/img-5_354.jpg 354w,
@@ -185,7 +189,8 @@ const portfolio = () => {
 										sizes="(min-width: 1199.98px) 370px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 										src="/portfoliogallery/img-5_450.jpg"
 										alt="projectboxes"
-										loading="lazy"
+										width="900"
+										height="100"
 									/>
 									<div className="gallery-list__hiddentext-second">
 										<p className="gallery-list__hiddensubtext">
@@ -205,7 +210,7 @@ const portfolio = () => {
 						<li className="gallery-list__item">
 							<a className="gallery-list__link" href="./portfolio.html">
 								<div className="gallery-list__hiddentext">
-									<img
+									<Image
 										className="gallery-list__item-img"
 										srcSet="
 											/portfoliogallery/img-6_354.jpg 354w,
@@ -218,7 +223,8 @@ const portfolio = () => {
 										sizes="(min-width: 1199.98px) 370px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 										src="/portfoliogallery/img-6_450.jpg"
 										alt="inspiration"
-										loading="lazy"
+										width="900"
+										height="100"
 									/>
 									<div className="gallery-list__hiddentext-second">
 										<p className="gallery-list__hiddensubtext">
@@ -240,7 +246,7 @@ const portfolio = () => {
 						<li className="gallery-list__item">
 							<a className="gallery-list__link" href="./portfolio.html">
 								<div className="gallery-list__hiddentext">
-									<img
+									<Image
 										className="gallery-list__item-img"
 										srcSet="
 											/portfoliogallery/img-7_354.jpg 354w,
@@ -253,7 +259,8 @@ const portfolio = () => {
 										sizes="(min-width: 1199.98px) 370px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 										src="/portfoliogallery/img-7_450.jpg"
 										alt="limitededition"
-										loading="lazy"
+										width="900"
+										height="100"
 									/>
 									<div className="gallery-list__hiddentext-second">
 										<p className="gallery-list__hiddensubtext">
@@ -275,7 +282,7 @@ const portfolio = () => {
 						<li className="gallery-list__item">
 							<a className="gallery-list__link" href="./portfolio.html">
 								<div className="gallery-list__hiddentext">
-									<img
+									<Image
 										className="gallery-list__item-img"
 										srcSet="
 											/portfoliogallery/img-8_354.jpg 354w,
@@ -288,7 +295,8 @@ const portfolio = () => {
 										sizes="(min-width: 1199.98px) 370px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 										src="/portfoliogallery/img-8_450.jpg"
 										alt="labproject"
-										loading="lazy"
+										width="900"
+										height="100"
 									/>
 									<div className="gallery-list__hiddentext-second">
 										<p className="gallery-list__hiddensubtext">
@@ -308,7 +316,7 @@ const portfolio = () => {
 						<li className="gallery-list__item">
 							<a className="gallery-list__link" href="./portfolio.html">
 								<div className="gallery-list__hiddentext">
-									<img
+									<Image
 										className="gallery-list__item-img"
 										srcSet="
 											/portfoliogallery/img-9_354.jpg 354w,
@@ -321,7 +329,8 @@ const portfolio = () => {
 										sizes="(min-width: 1199.98px) 370px, (min-width: 767.98px) 354px, (min-width: 479.98px) 450px"
 										src="/portfoliogallery/img-9_450.jpg"
 										alt="business"
-										loading="lazy"
+										width="900"
+										height="100"
 									/>
 									<div className="gallery-list__hiddentext-second">
 										<p className="gallery-list__hiddensubtext">
