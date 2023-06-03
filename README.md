@@ -78,17 +78,17 @@ In the project directory, you can run the following scripts:
 <br/>
 If you'd like to contribute to this project, you can follow these steps:
 <br/>
-**Fork the repository on GitHub.**
+- Fork the repository on GitHub.
 <br/>
-**Clone your forked repository to your local machine.**
+- Clone your forked repository to your local machine.
 <br/>
-**Create a new branch for your changes.**
+- Create a new branch for your changes.
 <br/>
-**Make your modifications and additions in the new branch.**
+- Make your modifications and additions in the new branch.
 <br/>
-**Push your branch to your forked repository.**
+- Push your branch to your forked repository.
 <br/>
-**Submit a pull request to the original repository.**
+- Submit a pull request to the original repository.
 <br/>
 <br/>
 **License**
