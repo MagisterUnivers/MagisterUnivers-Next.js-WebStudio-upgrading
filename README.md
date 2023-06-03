@@ -57,7 +57,7 @@ To get started with this project, follow these steps:
   </ul>
 <br/>
 <br/>
-**Arduino**
+  <h3>Arduino</h3>
 <br/><br/>
 <ul>
 <li>Copy code</li>
@@ -78,8 +78,8 @@ In the project directory, you can run the following scripts:
 <li>npm run lint: Runs the linter to check for code quality issues.</li>
 <li>npm run format: Formats the code using Prettier.</li>
 </ul>
-- <br/>
-- <br/>
+<br/>
+<br/>
 <h2>Contributing</h2>
 <br/>
 <br/>
