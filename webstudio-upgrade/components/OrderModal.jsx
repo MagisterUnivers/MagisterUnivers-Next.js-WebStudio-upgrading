@@ -12,7 +12,7 @@ const OrderModal = ({ isOpen, toggleMenu }) => {
 				</strong>
 				<form className="modal-form">
 					<label className="modal-label">
-						<span className="modal-comment">Ім'я</span>
+						<span className="modal-comment">Ім&apos;я</span>
 						<input
 							className="input-field"
 							type="text"
