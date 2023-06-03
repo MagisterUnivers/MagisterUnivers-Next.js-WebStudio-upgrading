@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import projects from '../components/projects/projects';
 
-const portfolio = () => {
+const Portfolio = () => {
 	return (
 		<>
 			<section className="benefits section">
@@ -76,4 +76,4 @@ const portfolio = () => {
 	);
 };
 
-export default portfolio;
+export default Portfolio;

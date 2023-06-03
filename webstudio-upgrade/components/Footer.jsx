@@ -1,4 +1,19 @@
 const Footer = () => {
+	const CloseButton = forwardRef((props, ref) => {
+		return (
+			<button
+				ref={ref}
+				onClick={props.onClick}
+				className="menu-toggle js-close-menu close-data-modal"
+				aria-label="Кнопка для закриття меню"
+			>
+				<svg className="menu-toggle__icon" width="40" height="40">
+					<use xlinkHref="/icons.svg#icon-close_40px"></use>
+				</svg>
+			</button>
+		);
+	});
+
 	return (
 		<footer className="footer">
 			<div className="fotlower-box container">
@@ -195,14 +210,7 @@ const Footer = () => {
 			</div>
 
 			<div className="menu-container js-menu-container" id="mobile-menu">
-				<button
-					className="menu-toggle js-close-menu close-data-modal"
-					aria-label="Кнопка для закриття меню"
-				>
-					<svg className="menu-toggle__icon" width="40" height="40">
-						<use xlinkHref="/icons.svg#icon-close_40px"></use>
-					</svg>
-				</button>
+				<CloseButton ref={closeMenuBtnRef} onClick={toggleMenu} />
 
 				<ul className="mobile-menu">
 					<li>

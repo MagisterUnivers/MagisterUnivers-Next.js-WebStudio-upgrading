@@ -1,8 +1,42 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import setupMobileMenu from '../js/mobile-menu';
+import { useEffect, useRef } from 'react';
 
 const Header = () => {
 	const router = useRouter();
+	const openMenuBtnRef = useRef(null);
+	const closeMenuBtnRef = useRef(null);
+
+	useEffect(() => {
+		const { toggleMenu, handleOrientationChange } = setupMobileMenu(
+			openMenuBtnRef.current,
+			closeMenuBtnRef.current
+		);
+
+		toggleMenu();
+
+		return () => {
+			openMenuBtnRef.current.removeEventListener('click', toggleMenu);
+			closeMenuBtnRef.current.removeEventListener('click', toggleMenu);
+			mediaQuery.removeEventListener('change', handleOrientationChange);
+		};
+	}, []);
+
+	const OpenButton = forwardRef((props, ref) => {
+		return (
+			<button
+				ref={ref}
+				onClick={props.onClick}
+				className="header__btn-menu js-open-menu open-data-modal"
+				type="button"
+			>
+				<svg className="header__menu-icon" width="40" height="40">
+					<use xlinkHref="/icons.svg#icon-menu_40px" />
+				</svg>
+			</button>
+		);
+	});
 
 	return (
 		<header className="header">
@@ -11,14 +45,7 @@ const Header = () => {
 					<a className="logo logo__size" href="/">
 						Web<span className="logo-primary">Studio</span>
 					</a>
-					<button
-						className="header__btn-menu js-open-menu open-data-modal"
-						type="button"
-					>
-						<svg className="header__menu-icon" width="40" height="40">
-							<use xlinkHref="/icons.svg#icon-menu_40px" />
-						</svg>
-					</button>
+					<OpenButton ref={openMenuBtnRef} onClick={toggleMenu} />
 
 					<ul className="site-nav__list">
 						<li
