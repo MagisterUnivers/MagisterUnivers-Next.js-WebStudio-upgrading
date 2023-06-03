@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
-import MobileMenu from './Modal';
+import MobileMenu from './modal/Modal.jsx';
 import { createPortal } from 'react-dom';
 import headerScroll from '@js/header-scroll';
 
@@ -12,6 +12,9 @@ const Header = () => {
 
 	const toggleMenu = () => {
 		setMenuOpen(!isMenuOpen);
+	};
+	const handleLinkClick = () => {
+		setMenuOpen(false);
 	};
 
 	useEffect(() => {
@@ -41,7 +44,11 @@ const Header = () => {
 					</button>
 					{isMenuOpen &&
 						createPortal(
-							<MobileMenu isOpen={isMenuOpen} toggleMenu={toggleMenu} />,
+							<MobileMenu
+								isOpen={isMenuOpen}
+								toggleMenu={toggleMenu}
+								onLinkClick={handleLinkClick}
+							/>,
 							document.getElementById('modal-data')
 						)}
 
