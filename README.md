@@ -31,8 +31,11 @@ To get started with this project, follow these steps:
 Clone the repository:
 <br/>
 - bash
+<br/>
 - Copy code
+<br/>
 - git clone https://github.com/your-username/MagisterUnivers-Next.js-WebStudio-upgrading.git
+<br/>
 <br/>
 <br/>
 **Navigate to the project directory:**
