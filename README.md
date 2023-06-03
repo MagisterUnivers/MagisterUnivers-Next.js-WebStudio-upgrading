@@ -1,22 +1,22 @@
-**MagisterUnivers-Next.js-WebStudio-upgrading**
-This repository contains the code for the upgrading test of Next.js basics for MagisterUnivers.
 
+**MagisterUnivers-Next.js-WebStudio-upgrading**
+
+This repository contains the code for the upgrading test of Next.js basics for MagisterUnivers.
+<br/>
 Project Description
 This project aims to demonstrate the basic knowledge of Next.js, a popular React framework for building server-side rendered and static websites. The focus of this test is to showcase understanding of Next.js fundamentals, including routing, data fetching, and component composition.
 
 Project Structure
 The project structure is organized as follows:
 
-ruby
-Copy code
-- components/       # Contains reusable components used throughout the application
-- pages/            # Contains the Next.js pages
-- public/           # Contains static assets such as images and CSS files
-- styles/           # Contains global styles and CSS modules
-- .next/            # Next.js build output directory (automatically generated)
-- next.config.js    # Next.js configuration file
-- package.json      # Project dependencies and scripts
-- README.md         # Project documentation (you are here)
+components/ # Contains reusable components used throughout the application
+pages/ # Contains the Next.js pages
+public/ # Contains static assets such as images and CSS files
+styles/ # Contains global styles and CSS modules
+.next/ # Next.js build output directory (automatically generated)
+next.config.js # Next.js configuration file
+package.json # Project dependencies and scripts
+README.md # Project documentation (you are here)
 Getting Started
 To get started with this project, follow these steps:
 
