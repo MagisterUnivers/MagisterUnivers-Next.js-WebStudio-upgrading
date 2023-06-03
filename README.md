@@ -24,7 +24,7 @@ The project structure is organized as follows:
 - package.json # Project dependencies and scripts
 - README.md # Project documentation (you are here) 
 <br/>
-**Getting Started**
+<h2>Getting Started</h2>
 <br/>
 To get started with this project, follow these steps:
 <br/>
