@@ -1,5 +1,5 @@
 
-**MagisterUnivers-Next.js-WebStudio-upgrading**
+<h1>MagisterUnivers-Next.js-WebStudio-upgrading</h1>
 
 This repository contains the code for the upgrading test of Next.js basics from MagisterUnivers.
 <br/>
@@ -73,7 +73,7 @@ In the project directory, you can run the following scripts:
 - npm run format: Formats the code using Prettier.
 - <br/>
 - <br/>
-**Contributing**
+<h2>Contributing</h2>
 <br/>
 <br/>
 If you'd like to contribute to this project, you can follow these steps:
