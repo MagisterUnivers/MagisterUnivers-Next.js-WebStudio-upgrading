@@ -32,10 +32,13 @@ The project structure is organized as follows:
 <br/>
 To get started with this project, follow these steps:
 <br/>
+<br/>
+<ul>
 <li>Clone the repository</li>
 <li>bash</li>
 <li>Copy code</li>
 <li>git clone https://github.com/your-username/MagisterUnivers-Next.js-WebStudio-upgrading.git<li>
+</ul>
 <br/>
 <br/>
   <h3>Navigate to the project directory:</h3>
