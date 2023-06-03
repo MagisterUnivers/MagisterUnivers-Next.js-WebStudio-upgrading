@@ -66,19 +66,28 @@ In the project directory, you can run the following scripts:
 - npm run format: Formats the code using Prettier.
 - <br/>
 **Contributing**
+<br/>
+<br/>
 If you'd like to contribute to this project, you can follow these steps:
 <br/>
 **Fork the repository on GitHub.**
+<br/>
 **Clone your forked repository to your local machine.**
+<br/>
 **Create a new branch for your changes.**
+<br/>
 **Make your modifications and additions in the new branch.**
+<br/>
 **Push your branch to your forked repository.**
+<br/>
 **Submit a pull request to the original repository.**
 <br/>
 **License**
+<br/><br/>
 This project is licensed under the MIT License.
 <br/>
 **Acknowledgments**
+<br/><br/>
 This project was created as an entry test for the upgrading of Next.js basics for MagisterUnivers.
 <br/>
 Feel free to modify this README file to suit your specific needs and provide more detailed information about your project.
