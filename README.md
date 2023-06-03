@@ -72,6 +72,7 @@ In the project directory, you can run the following scripts:
 <br/>
 - npm run format: Formats the code using Prettier.
 - <br/>
+- <br/>
 **Contributing**
 <br/>
 <br/>
@@ -88,6 +89,7 @@ If you'd like to contribute to this project, you can follow these steps:
 **Push your branch to your forked repository.**
 <br/>
 **Submit a pull request to the original repository.**
+<br/>
 <br/>
 **License**
 <br/><br/>
