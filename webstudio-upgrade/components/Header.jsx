@@ -1,18 +1,27 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useState, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import MobileMenu from './Modal';
 import { createPortal } from 'react-dom';
+import headerScroll from '@js/header-scroll';
 
 const Header = () => {
 	const router = useRouter();
-	const mobileMenu = useRef(null);
 
 	const [isMenuOpen, setMenuOpen] = useState(false);
 
 	const toggleMenu = () => {
 		setMenuOpen(!isMenuOpen);
 	};
+
+	useEffect(() => {
+		const handleScroll = headerScroll();
+		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
 
 	return (
 		<header className="header">

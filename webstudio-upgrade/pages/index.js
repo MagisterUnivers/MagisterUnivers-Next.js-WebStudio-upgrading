@@ -1,5 +1,15 @@
+import OrderModal from '@components/OrderModal';
 import Image from 'next/image';
+import { useState } from 'react';
+import { createPortal } from 'react-dom';
+
 export default function Home() {
+	const [isMenuOpen, setMenuOpen] = useState(false);
+
+	const toggleMenu = () => {
+		setMenuOpen(!isMenuOpen);
+	};
+
 	return (
 		<>
 			<section className="hero section">
@@ -10,11 +20,17 @@ export default function Home() {
 					</h1>
 					<button
 						data-modal-open
+						onClick={toggleMenu}
 						type="button"
 						className="hero-box__primary-btn open-data-modal"
 					>
 						Замовити послугу
 					</button>
+					{isMenuOpen &&
+						createPortal(
+							<OrderModal isOpen={isMenuOpen} toggleMenu={toggleMenu} />,
+							document.getElementById('modal-data')
+						)}
 				</div>
 			</section>
 

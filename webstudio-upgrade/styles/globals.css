@@ -327,20 +327,6 @@ body {
   }
 }
 
-.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  -webkit-animation: shadow-out 0.2s linear;
-  animation: shadow-out 0.2s linear;
-}
-
-.is-show {
-  -webkit-animation: shadow-in 1.25s linear;
-  animation: shadow-in 1.25s linear;
-}
-
 /**
   |============================
   |  Section + Container settings
@@ -1637,14 +1623,14 @@ screen and (min-width: 1199.98px) and (min-resolution: 2dppx) {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.is-hidden {
+/* .is-hidden {
   opacity: 0;
   pointer-events: none;
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   -webkit-animation: shadow-out 0.2s linear;
   animation: shadow-out 0.2s linear;
-}
+} */
 
 .is-show {
   -webkit-animation: shadow-in 1.25s linear;
