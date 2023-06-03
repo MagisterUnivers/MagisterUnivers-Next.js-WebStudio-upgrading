@@ -4,13 +4,13 @@
 This repository contains the code for the upgrading test of Next.js basics from MagisterUnivers.
 <br/>
 <br/>
-**Project Description**
+<h2>Project Description</h2>
 <br/>
 <br/>
 This project aims to demonstrate the basic knowledge of Next.js, a popular React framework for building server-side rendered and static websites. The focus of this test is to showcase understanding of Next.js fundamentals, including routing, data fetching, and component composition.
 <br/>
 <br/>
-**Project Structure**
+<h2>Project Structure</h2>
 <br/>
 <br/>
 The project structure is organized as follows:
@@ -57,7 +57,7 @@ Clone the repository:
 - Open your browser and visit http://localhost:3000 to see the application.
 <br/>
 <br/>
-**Available Scripts**
+<h2>Available Scripts</h2>
 <br/>
 <br/>
 In the project directory, you can run the following scripts:
@@ -91,12 +91,12 @@ If you'd like to contribute to this project, you can follow these steps:
 - Submit a pull request to the original repository.
 <br/>
 <br/>
-**License**
+<h2>License</h2>
 <br/><br/>
 This project is licensed under the MIT License.
 <br/>
 <br/>
-**Acknowledgments**
+<h2>Acknowledgments</h2>
 <br/><br/>
 This project was created as an entry test for the upgrading of Next.js basics for MagisterUnivers.
 <br/>
