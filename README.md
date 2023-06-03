@@ -50,13 +50,15 @@ Clone the repository:
 - Start the development server
 <br/>
 <br/>
-**arduino**
+**Arduino**
 <br/><br/>
 - Copy code
 - npm run dev
 - Open your browser and visit http://localhost:3000 to see the application.
 <br/>
 **Available Scripts**
+<br/>
+<br/>
 In the project directory, you can run the following scripts:
 <br/>
 - npm run dev: Starts the development server on http://localhost:3000.
@@ -85,6 +87,7 @@ If you'd like to contribute to this project, you can follow these steps:
 **License**
 <br/><br/>
 This project is licensed under the MIT License.
+<br/>
 <br/>
 **Acknowledgments**
 <br/><br/>
