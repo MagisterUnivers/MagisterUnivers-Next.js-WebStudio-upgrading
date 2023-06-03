@@ -27,12 +27,16 @@ The project structure is organized as follows:
 **Getting Started**
 To get started with this project, follow these steps:
 <br/>
+<br/>
 Clone the repository:
+<br/>
 - bash
 - Copy code
 - git clone https://github.com/your-username/MagisterUnivers-Next.js-WebStudio-upgrading.git
 <br/>
+<br/>
 **Navigate to the project directory:**
+<br/>
 - bash
 - Copy code
 - cd MagisterUnivers-Next.js-WebStudio-upgrading
@@ -41,8 +45,9 @@ Clone the repository:
 - npm install
 - Start the development server
 <br/>
-**arduino**
 <br/>
+**arduino**
+<br/><br/>
 - Copy code
 - npm run dev
 - Open your browser and visit http://localhost:3000 to see the application.
