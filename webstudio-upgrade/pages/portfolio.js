@@ -37,7 +37,7 @@ const Portfolio = () => {
 					<ul className="gallery-list">
 						{projects.map((project) => (
 							<li key={project.number} className="gallery-list__item">
-								<a className="gallery-list__link" href="./portfolio.html">
+								<a className="gallery-list__link" href="/portfolio">
 									<div className="gallery-list__hiddentext">
 										<Image
 											className="gallery-list__item-img"
