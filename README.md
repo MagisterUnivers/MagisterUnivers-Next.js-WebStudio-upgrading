@@ -103,6 +103,5 @@ This project is licensed under the MIT License.
 <br/>
 <h2>Acknowledgments</h2>
 <br/><br/>
-This project was created as an entry test for the upgrading of Next.js basics for MagisterUnivers.
+This project was created as an entry test for the upgrading of Next.js basics from MagisterUnivers.
 <br/>
-Feel free to modify this README file to suit your specific needs and provide more detailed information about your project.
