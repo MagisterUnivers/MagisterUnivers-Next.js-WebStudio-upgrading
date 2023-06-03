@@ -1,4 +1,4 @@
-
+![logo](https://github.com/MagisterUnivers/MagisterUnivers-Next.js-WebStudio-upgrading/assets/36455862/6d030125-ce60-4051-b9f0-c4197deb6d54)
 <h1>MagisterUnivers-Next.js-WebStudio-upgrading</h1>
 
 This repository contains the code for the upgrading test of Next.js basics from MagisterUnivers.
