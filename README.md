@@ -71,6 +71,7 @@ To get started with this project, follow these steps:
 <br/>
 In the project directory, you can run the following scripts:
 <br/>
+  <br/>
 <ul>
 <li>npm run dev: Starts the development server on http://localhost:3000.</li>
 <li>npm run build: Builds the Next.js application for production.</li>
@@ -85,6 +86,7 @@ In the project directory, you can run the following scripts:
 <br/>
 If you'd like to contribute to this project, you can follow these steps:
 <br/>
+  <br/>
 <ul>
 <li>Fork the repository on GitHub.</li>
 <li>Clone your forked repository to your local machine.</li>
