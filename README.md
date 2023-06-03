@@ -25,6 +25,7 @@ The project structure is organized as follows:
 - README.md # Project documentation (you are here) 
 <br/>
 **Getting Started**
+<br/>
 To get started with this project, follow these steps:
 <br/>
 <br/>
