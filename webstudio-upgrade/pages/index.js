@@ -1,27 +1,5 @@
 import Image from 'next/image';
-import { useEffect } from 'react';
-
-import headerScroll from '../js/header-scroll';
-import setupModal from '../js/modal';
-
 export default function Home() {
-	useEffect(() => {
-		const handleScroll = headerScroll();
-		handleScroll();
-		window.addEventListener('scroll', handleScroll);
-		return () => {
-			window.removeEventListener('scroll', handleScroll);
-		};
-	}, []);
-
-	useEffect(() => {
-		const { toggleModal, refs } = setupModal();
-		return () => {
-			refs.openModalBtn.removeEventListener('click', toggleModal);
-			refs.closeModalBtn.removeEventListener('click', toggleModal);
-		};
-	}, []);
-
 	return (
 		<>
 			<section className="hero section">

@@ -1,42 +1,18 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import setupMobileMenu from '../js/mobile-menu';
-import { useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
+import MobileMenu from './Modal';
+import { createPortal } from 'react-dom';
 
 const Header = () => {
 	const router = useRouter();
-	const openMenuBtnRef = useRef(null);
-	const closeMenuBtnRef = useRef(null);
+	const mobileMenu = useRef(null);
 
-	useEffect(() => {
-		const { toggleMenu, handleOrientationChange } = setupMobileMenu(
-			openMenuBtnRef.current,
-			closeMenuBtnRef.current
-		);
+	const [isMenuOpen, setMenuOpen] = useState(false);
 
-		toggleMenu();
-
-		return () => {
-			openMenuBtnRef.current.removeEventListener('click', toggleMenu);
-			closeMenuBtnRef.current.removeEventListener('click', toggleMenu);
-			mediaQuery.removeEventListener('change', handleOrientationChange);
-		};
-	}, []);
-
-	const OpenButton = forwardRef((props, ref) => {
-		return (
-			<button
-				ref={ref}
-				onClick={props.onClick}
-				className="header__btn-menu js-open-menu open-data-modal"
-				type="button"
-			>
-				<svg className="header__menu-icon" width="40" height="40">
-					<use xlinkHref="/icons.svg#icon-menu_40px" />
-				</svg>
-			</button>
-		);
-	});
+	const toggleMenu = () => {
+		setMenuOpen(!isMenuOpen);
+	};
 
 	return (
 		<header className="header">
@@ -45,7 +21,20 @@ const Header = () => {
 					<a className="logo logo__size" href="/">
 						Web<span className="logo-primary">Studio</span>
 					</a>
-					<OpenButton ref={openMenuBtnRef} onClick={toggleMenu} />
+					<button
+						className="header__btn-menu js-open-menu open-data-modal"
+						type="button"
+						onClick={toggleMenu}
+					>
+						<svg className="header__menu-icon" width="40" height="40">
+							<use xlinkHref="/icons.svg#icon-menu_40px" />
+						</svg>
+					</button>
+					{isMenuOpen &&
+						createPortal(
+							<MobileMenu isOpen={isMenuOpen} toggleMenu={toggleMenu} />,
+							document.getElementById('modal-data')
+						)}
 
 					<ul className="site-nav__list">
 						<li
