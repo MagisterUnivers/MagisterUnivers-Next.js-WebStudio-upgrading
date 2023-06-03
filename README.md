@@ -9,7 +9,7 @@ This repository contains the code for the upgrading test of Next.js basics from 
 <br/>
 This project aims to demonstrate the basic knowledge of Next.js, a popular React framework for building server-side rendered and static websites. The focus of this test is to showcase understanding of Next.js fundamentals, including routing, data fetching, and component composition.
 <br/>
-<br/
+<br/>
 **Project Structure**
 <br/>
 <br/>
