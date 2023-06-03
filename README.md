@@ -8,6 +8,7 @@ This project aims to demonstrate the basic knowledge of Next.js, a popular React
 <br/>
 Project Structure
 <br/>
+<br/>
 The project structure is organized as follows:
 <br/>
 - components/ # Contains reusable components used throughout the application
