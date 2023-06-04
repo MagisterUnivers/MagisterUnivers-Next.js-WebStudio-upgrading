@@ -389,6 +389,44 @@ body {
   }
 }
 
+.contacts__container {
+  display: flex;
+  gap: 24.4%;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__container {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+
+.contacts-info__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.googleMap {
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .googleMap {
+    width: 450px;
+    margin-bottom: 35px;
+  }
+}
+
 /**
   |============================
   |  Our benefits section
@@ -2287,6 +2325,13 @@ screen and (min-width: 1199.98px) and (min-resolution: 2dppx) {
   |  Footer area
   |============================
 */
+
+.contacts-subtitle {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 15.5px;
+}
+
 .footer {
   background-color: var(--footerbackground-color);
   padding-bottom: 60px;
@@ -2355,6 +2400,10 @@ screen and (min-width: 1199.98px) and (min-resolution: 2dppx) {
   }
 }
 
+.footer-address.address-contacts {
+  text-align: center;
+}
+
 .footer-address__list {
   margin-bottom: 60px;
   padding: 0;
@@ -2380,6 +2429,11 @@ screen and (min-width: 1199.98px) and (min-resolution: 2dppx) {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address__list-link.adress {
+  color: black;
+  font-size: 15px;
 }
 
 .footer-address__list-link:hover {
@@ -2608,6 +2662,15 @@ screen and (min-width: 1199.98px) and (min-resolution: 2dppx) {
     font-size: 26px;
     line-height: 1.1923076923;
   }
+}
+
+.logo__contacts {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.1666666667;
+  text-decoration: none;
 }
 
 .logo__secondary {
