@@ -15,7 +15,6 @@ export default function Document() {
 				<meta name="msapplication-TileColor" content="#da532c" />
 				<meta name="theme-color" content="#ffffff" />
 				<meta name="author" content="Team Undefined - MagisterUnivers" />
-				<title>WebStudio</title>
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"

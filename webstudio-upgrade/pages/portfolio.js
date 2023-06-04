@@ -5,6 +5,7 @@ import projects, {
 	filterTypeOf
 } from '../components/projects/projects';
 import { useState } from 'react';
+import Head from 'next/head';
 
 const Portfolio = () => {
 	const [filterType, setFilterType] = useState('Усі');
@@ -15,6 +16,9 @@ const Portfolio = () => {
 
 	return (
 		<>
+			<Head>
+				<title>WebStudio</title>
+			</Head>
 			<section className="benefits section">
 				<div className="benefits__gallery container">
 					<h1 className="visually-hidden">Фильтр и Проекты</h1>
