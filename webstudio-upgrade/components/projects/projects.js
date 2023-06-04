@@ -73,6 +73,21 @@ const projects = [
 	}
 ];
 
+export const filterCategories = [
+	'Усі',
+	'Веб-сайти',
+	'Додатки',
+	'Дизайн',
+	'Маркетинг'
+];
+export const filterTypeOf = [
+	'Усі',
+	'Веб-сайт',
+	'Додаток',
+	'Дизайн',
+	'Маркетинг'
+];
+
 export default projects;
 
 // {
@@ -110,4 +125,18 @@ export default projects;
 // 			</a>
 // 		</li>;
 // 	});
+// }
+
+// {
+// 	filterCategories.map((filter) => (
+// 		<li className="benefits__gallery-item">
+// 			<button
+// 				type="button"
+// 				className="btn secondary-btn"
+// 				onClick={() => handleFilterTypeChange({ filter })}
+// 			>
+// 				{`${filter}`}
+// 			</button>
+// 		</li>
+// 	));
 // }

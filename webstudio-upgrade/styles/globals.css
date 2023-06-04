@@ -494,7 +494,9 @@ body {
 
 @media screen and (min-width: 1199.98px) {
   .benefits.section {
-    padding-top: 94px;
+    /* padding-top: 94px; */
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
