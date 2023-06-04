@@ -46,7 +46,7 @@ To get started with this project, follow these steps:
   <ul>
   <li>bash</li>
 <li>Copy code</li>
-<li>cd MagisterUnivers-Next.js-WebStudio-upgrading</li>
+<li>cd webstudio-upgrade</li>
 <li>Install the dependencies</li>
 <li>Copy code</li>
 <li>npm install</li>
