@@ -59,8 +59,15 @@ const MobileMenu = ({ isOpen, toggleMenu, onLinkClick }) => {
 					</Link>
 				</li>
 				<li>
-					<Link legacyBehavior href="./">
-						<a className="mobile-menu__link link" onClick={onLinkClick}>
+					<Link legacyBehavior href="/contacts">
+						<a
+							className={`mobile-menu__link ${
+								router.pathname === '/contacts'
+									? 'mobile-menu__link--current link'
+									: ''
+							}`}
+							onClick={onLinkClick}
+						>
 							<span>Контакти</span>
 						</a>
 					</Link>
