@@ -12,6 +12,7 @@ const Clients = () => {
 								className="clients__list-link"
 								href="/"
 								target="_blank"
+								aria-label="Our clients companys"
 								rel="noreferrer noopener"
 							>
 								<svg className="clients__item-icon" width="106" height="60">

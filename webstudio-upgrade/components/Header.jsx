@@ -37,6 +37,7 @@ const Header = () => {
 					</Link>
 					<button
 						className="header__btn-menu js-open-menu open-data-modal"
+						aria-label="open burger menu"
 						type="button"
 						onClick={toggleMenu}
 					>

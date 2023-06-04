@@ -41,6 +41,7 @@ const Footer = () => {
 					<ul className="footer__socials-list">
 						<li className="footer__socials-item">
 							<a
+								aria-label="Social life links"
 								className="footer__socials-link"
 								href="https://www.instagram.com/"
 								target="_blank"
@@ -53,6 +54,7 @@ const Footer = () => {
 						</li>
 						<li className="footer__socials-item">
 							<a
+								aria-label="Social life links"
 								className="footer__socials-link"
 								href="https://twitter.com/"
 								target="_blank"
@@ -65,6 +67,7 @@ const Footer = () => {
 						</li>
 						<li className="footer__socials-item">
 							<a
+								aria-label="Social life links"
 								className="footer__socials-link"
 								href="https://www.facebook.com/"
 								target="_blank"
@@ -77,6 +80,7 @@ const Footer = () => {
 						</li>
 						<li className="footer__socials-item">
 							<a
+								aria-label="Social life links"
 								className="footer__socials-link"
 								href="https://www.linkedin.com/"
 								target="_blank"

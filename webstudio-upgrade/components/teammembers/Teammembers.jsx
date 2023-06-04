@@ -37,6 +37,7 @@ const Teammembers = () => {
 										<li key={`${social.number}`} className="socials__list-item">
 											<a
 												className="socials__list-link"
+												aria-label="Social life reffering"
 												href={`${social.http}`}
 												target="_blank"
 												rel="noreferrer noopener"
