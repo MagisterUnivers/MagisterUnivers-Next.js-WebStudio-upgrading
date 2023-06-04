@@ -2,7 +2,7 @@ import clients from './Clients';
 
 const Clients = () => {
 	return (
-		<section className="section">
+		<section className="section" data-aos="zoom-in" data-aos-duration="2000">
 			<h2 className="subject clients">Постійні клієнти</h2>
 			<div className="container">
 				<ul className="clients__list">

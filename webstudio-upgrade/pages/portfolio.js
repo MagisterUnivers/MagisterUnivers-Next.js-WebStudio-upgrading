@@ -19,10 +19,18 @@ const Portfolio = () => {
 			<Head>
 				<title>WebStudio</title>
 			</Head>
-			<section className="benefits section">
+			<section
+				className="benefits section"
+				data-aos="fade-left"
+				data-aos-duration="2000"
+			>
 				<div className="benefits__gallery container">
 					<h1 className="visually-hidden">Фильтр и Проекты</h1>
-					<ul className="benefits__gallery-list">
+					<ul
+						className="benefits__gallery-list"
+						data-aos="flip-right"
+						data-aos-duration="2000"
+					>
 						{filterCategories.map((filter, index) => (
 							<li key={index} className="benefits__gallery-item">
 								<button

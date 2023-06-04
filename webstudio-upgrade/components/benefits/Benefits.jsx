@@ -2,7 +2,7 @@ import benefits from './Benefits';
 
 const Benefits = () => {
 	return (
-		<section className="section">
+		<section className="section" data-aos="zoom-in" data-aos-duration="2000">
 			<h2 className="visually-hidden">Наши преимущества</h2>
 			<div className="container features">
 				<ul className="features__list">

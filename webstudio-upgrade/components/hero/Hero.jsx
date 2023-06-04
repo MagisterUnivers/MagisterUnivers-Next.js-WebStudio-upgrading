@@ -10,7 +10,11 @@ const Hero = () => {
 	};
 
 	return (
-		<section className="hero section">
+		<section
+			className="hero section"
+			data-aos="zoom-in"
+			data-aos-duration="2000"
+		>
 			<div className="container hero__box">
 				<h1 className="hero-box__title">
 					Ефективні рішення для вашого бізнесу

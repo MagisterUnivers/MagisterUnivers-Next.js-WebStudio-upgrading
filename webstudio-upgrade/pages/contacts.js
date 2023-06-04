@@ -6,7 +6,11 @@ const contacts = () => {
 			<Head>
 				<title>WebStudio</title>
 			</Head>
-			<section className="section">
+			<section
+				className="section"
+				data-aos="flip-down"
+				data-aos-duration="1500"
+			>
 				<div className="container contacts__container">
 					{' '}
 					<iframe

@@ -3,7 +3,11 @@ import Image from 'next/image';
 
 const Teammembers = () => {
 	return (
-		<section className="section teammembers">
+		<section
+			className="section teammembers"
+			data-aos="zoom-in"
+			data-aos-duration="2000"
+		>
 			<div className="author container">
 				<h2 className="subject">Наша команда</h2>
 				<ul className="author__list">

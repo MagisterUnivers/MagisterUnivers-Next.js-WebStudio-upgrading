@@ -3,7 +3,11 @@ import Image from 'next/image';
 
 const WhatWeDo = () => {
 	return (
-		<section className="section whatwedo">
+		<section
+			className="section whatwedo"
+			data-aos="zoom-in"
+			data-aos-duration="2000"
+		>
 			<div className="desc-box container">
 				<h2 className="subject">Чим ми займаємося</h2>
 				<ul className="desc-box__list">
