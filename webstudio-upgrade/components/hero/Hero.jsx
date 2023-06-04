@@ -25,7 +25,7 @@ const Hero = () => {
 				</button>
 				{isMenuOpen &&
 					createPortal(
-						<OrderModal isOpen={isMenuOpen} toggleMenu={toggleMenu} />,
+						<OrderModal toggleMenu={toggleMenu} />,
 						document.getElementById('modal-data')
 					)}
 			</div>

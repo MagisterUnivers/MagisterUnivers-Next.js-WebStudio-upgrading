@@ -1,4 +1,4 @@
-const OrderModal = ({ isOpen, toggleMenu }) => {
+const OrderModal = ({ toggleMenu }) => {
 	return (
 		<div data-modal className="backdrop is-hidden">
 			<div className="modal">
