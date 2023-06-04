@@ -9,7 +9,11 @@ const MobileMenu = ({ isOpen, toggleMenu, onLinkClick }) => {
 
 	useEffect(() => {
 		if (isOpen) {
-			mobileMenu.current.classList.add('is-open');
+			const timeoutId = setTimeout(() => {
+				mobileMenu.current.classList.add('is-open');
+			}, 10);
+
+			return () => clearTimeout(timeoutId);
 		} else {
 			mobileMenu.current.classList.remove('is-open');
 		}

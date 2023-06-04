@@ -1653,14 +1653,12 @@ screen and (min-width: 1199.98px) and (min-resolution: 2dppx) {
   z-index: 11;
   -webkit-backdrop-filter: blur(1px);
   backdrop-filter: blur(1px);
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 250ms;
-  transition-duration: 250ms;
+  transition: transform 250ms ease-in-out;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   overflow-y: scroll;
   background-color: rgba(0, 0, 0, 0.2);
+  transform: translateX(100%)
 }
 
 /* .is-hidden {
@@ -1673,8 +1671,7 @@ screen and (min-width: 1199.98px) and (min-resolution: 2dppx) {
 } */
 
 .is-show {
-  -webkit-animation: shadow-in 1.25s linear;
-  animation: shadow-in 1.25s linear;
+  transform: translateX(0)
 }
 
 .body-is-hidden {

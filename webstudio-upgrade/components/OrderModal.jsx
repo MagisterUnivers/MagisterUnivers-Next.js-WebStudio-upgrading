@@ -1,6 +1,22 @@
-const OrderModal = ({ toggleMenu }) => {
+import { useEffect, useRef } from 'react';
+
+const OrderModal = ({ isOpen, toggleMenu }) => {
+	const OrderMenu = useRef(null);
+
+	useEffect(() => {
+		if (isOpen) {
+			const timeoutId = setTimeout(() => {
+				OrderMenu.current.classList.add('is-show');
+			}, 10);
+
+			return () => clearTimeout(timeoutId);
+		} else {
+			OrderMenu.current.classList.remove('is-show');
+		}
+	}, [isOpen]);
+
 	return (
-		<div data-modal className="backdrop is-hidden">
+		<div data-modal className="backdrop" ref={OrderMenu}>
 			<div className="modal">
 				<button data-modal-close className="modal__btn" onClick={toggleMenu}>
 					<svg className="modal__icon" width="18" height="18">
